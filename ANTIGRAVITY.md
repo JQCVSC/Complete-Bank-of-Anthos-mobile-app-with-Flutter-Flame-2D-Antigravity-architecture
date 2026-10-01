@@ -81,6 +81,12 @@ Antigravity executed rigorous verification checks:
 | **Backend Target** | **Google Cloud Bank of Anthos** | Microservices sample on Google Kubernetes Engine (GKE) |
 | **Web Runtime** | **Flutter Web + CanvasKit** | High-performance compiled WebAssembly/CanvasKit web preview |
 
+<p align="center">
+  <img src="docs/screenshots/05_antigravity_systems_architecture.png" width="340px" alt="In-App Antigravity Architecture Showcase" />
+  <br>
+  <em>In-App Google Antigravity & Core Systems Stack Architecture Showcase in Settings</em>
+</p>
+
 ---
 
 ## 🔌 Microservices Integration Matrix

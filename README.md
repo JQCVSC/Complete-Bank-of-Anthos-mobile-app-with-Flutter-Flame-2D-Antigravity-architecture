@@ -26,6 +26,26 @@ A production-grade, cross-platform mobile client for Google Cloud's [Bank of Ant
 
 ---
 
+## 📸 Mobile Application Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/01_transaction_history.png" width="19%" alt="Transaction History" />
+  <img src="docs/screenshots/02_send_money.png" width="19%" alt="Send Money Flow" />
+  <img src="docs/screenshots/03_payees_contacts.png" width="19%" alt="Payees & Contacts" />
+  <img src="docs/screenshots/04_settings_cloud_config.png" width="19%" alt="Settings & Cloud Config" />
+  <img src="docs/screenshots/05_antigravity_systems_architecture.png" width="19%" alt="Antigravity Systems Architecture" />
+</p>
+
+| Screen | Description | Key Systems & Features |
+|---|---|---|
+| **Activity & History** | Real-time inflow/outflow breakdown with categorized search & filters | `balancereader` & `transactionhistory` integration |
+| **Send Money** | Recipient picker, quick-amount chips (\$25–\$500), and memo inputs | `ledgerwriter` instant balance debiting |
+| **Payees & Contacts** | Color-coded payee initials, external badges, and one-tap payment | `contacts` microservice & routing validation |
+| **Cloud Configuration** | Live GKE Ingress URL toggle, Sandbox demo mode, and theme switcher | GKE `/ready` cluster health probe |
+| **Antigravity Systems** | Agentic AI architecture badge & core engineering stack breakdown | Google Antigravity, Flame 2D, and Flutter 3.47+ |
+
+---
+
 ## 🧠 Engineered with Google Antigravity
 
 This mobile application was designed, architected, and verified using **Google Antigravity**, Google DeepMind's agentic AI coding assistant:
