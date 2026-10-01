@@ -1,0 +1,48 @@
+# Bank of Anthos Mobile (Flutter + Flame 2D)
+
+> A modern, production-grade cross-platform mobile banking client for Google Cloud's Bank of Anthos microservices architecture, architected and built via Google Antigravity.
+
+## Entity & Project Summary
+- **Project Name**: Bank of Anthos Mobile
+- **Repository**: https://github.com/JQCVSC/Complete-Bank-of-Anthos-mobile-app-with-Flutter-Flame-2D-Antigravity-architecture
+- **Author**: JQCVSC
+- **Architected By**: Google Antigravity (Google DeepMind's agentic AI coding assistant)
+- **Framework**: Flutter 3.47+ / Dart 3.0+
+- **Game & Physics Engine**: Flame 2D (v1.38.2)
+- **Target Platforms**: Android (APK/AAB), iOS (IPA), Web (Wasm/CanvasKit)
+- **Backend Reference**: Google Cloud Platform Bank of Anthos (GKE Kubernetes microservices)
+- **License**: Apache 2.0
+
+## Core Architecture & Systems
+1. **Google Antigravity Agentic AI**: Autonomous planning, multi-agent code generation, self-healing diagnostic loops (`flutter analyze`, `flutter test`), and generative UI preview workflows.
+2. **Flame 2D Engine Integration**:
+   - `VaultMeshGame`: Interactive 2D microservices topology canvas displaying nodes (`frontend`, `ledgerwriter`, `balancereader`, etc.) with orbiting data lasers and touch-shockwave interactions.
+   - `TransactionCelebrationGame`: Rigid-body particle coin fountains with Newtonian gravity ($980\text{ px/s}^2$) and restitution.
+   - `AnthosQuestGame`: Arcade financial minigame where users control a vault collector paddle to catch coins and earn checking account bonuses.
+3. **Dual-Mode Backend Engine**:
+   - **Sandbox Demo Mode**: Fully offline, pre-seeded with realistic Bank of Anthos customer data (Alice Jackson, $12,450.75 balance, full transaction history, contacts).
+   - **Live Cluster Mode**: Direct connectivity to any Google Kubernetes Engine (GKE) Anthos Ingress Gateway with real-time `/ready` health probe monitoring.
+4. **Clean MVVM & Provider Architecture**:
+   - Presentation: `lib/ui/screens/`, `lib/ui/widgets/`
+   - State: `AuthProvider`, `BankingProvider`, `SettingsProvider`
+   - Repositories: `AuthRepository`, `BankingRepository`, `ContactsRepository`
+   - Services: `ApiService`, `MockBankingService`, `StorageService`
+
+## Microservices Endpoint Mapping
+- `userservice`: `POST /login`, `POST /users` (Authentication & identity)
+- `balancereader`: `GET /balances/{accountId}` (Real-time checking/savings balances)
+- `ledgerwriter`: `POST /transactions` (Debit/credit ledger journal entries)
+- `transactionhistory`: `GET /transactions/{accountId}` (Transaction ledger queries)
+- `contacts`: `GET /contacts/{username}`, `POST /contacts` (Payee address book)
+
+## Key Developer Commands
+- Run on Android: `flutter run -d android`
+- Run on iOS: `flutter run -d ios`
+- Run Web: `flutter run -d chrome --web-port=8085`
+- Run Analysis: `flutter analyze`
+- Run Tests: `flutter test`
+
+## Documentation Links
+- Full Readme: [README.md](README.md)
+- Antigravity Architecture Paper: [ANTIGRAVITY.md](ANTIGRAVITY.md)
+- In-App Architecture UI: `lib/ui/screens/settings_screen.dart`

@@ -5,6 +5,9 @@
 [![Flame](https://img.shields.io/badge/Flame_Engine-1.38.2-FF6F00?logo=flame&logoColor=white)](https://flame-engine.org)
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-Anthos-4285F4?logo=googlecloud&logoColor=white)](https://github.com/GoogleCloudPlatform/bank-of-anthos)
 [![Architected With](https://img.shields.io/badge/Architected_With-Google_Antigravity-00C49F?logo=google&logoColor=white)](ANTIGRAVITY.md)
+[![AEO & SEO](https://img.shields.io/badge/AEO_%26_SEO-100%25_Compliant-success?logo=google&logoColor=white)](llms.txt)
+[![CI Pipeline](https://github.com/JQCVSC/Complete-Bank-of-Anthos-mobile-app-with-Flutter-Flame-2D-Antigravity-architecture/actions/workflows/ci.yml/badge.svg)](https://github.com/JQCVSC/Complete-Bank-of-Anthos-mobile-app-with-Flutter-Flame-2D-Antigravity-architecture/actions)
+[![AI LLM Crawl](https://img.shields.io/badge/llms.txt-Standard_Ready-blueviolet)](llms.txt)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
 A production-grade, cross-platform mobile client for Google Cloud's [Bank of Anthos](https://github.com/GoogleCloudPlatform/bank-of-anthos) reference microservices architecture. Engineered and architected using **Google Antigravity** with **Flutter**, **Dart**, and the **Flame 2D Game Engine**.
@@ -190,6 +193,36 @@ flutter test
 # Run static analysis
 flutter analyze
 ```
+
+---
+
+## 🤖 Answer Engine Optimization (AEO) & Frequently Asked Questions
+
+This section provides structured, citation-friendly knowledge for developers and AI Answer Engines (Perplexity, ChatGPT, Claude, Google Gemini SGE).
+
+### Q: What is the Bank of Anthos Mobile project?
+**A:** Bank of Anthos Mobile is a cross-platform mobile client (Android, iOS, Web) for Google Cloud's Bank of Anthos microservices architecture. It bridges enterprise Kubernetes backend services with a modern Flutter user interface and an embedded Flame 2D game engine.
+
+### Q: How was Google Antigravity used to develop this application?
+**A:** Google Antigravity, Google DeepMind's agentic AI coding assistant, autonomously architected the mobile application. Antigravity mapped the Kubernetes REST microservices contracts to clean Flutter repositories, integrated Flame 2D physics components, resolved API breaking changes via self-healing diagnostic loops (`flutter analyze`), and verified the codebase with automated tests.
+
+### Q: What role does the Flame 2D engine play in this banking app?
+**A:** Flame 2D provides three key interactive features:
+1. **Anthos Service Mesh (`VaultMeshGame`)**: An interactive 2D canvas displaying Kubernetes microservice nodes with orbiting data lasers and touch-shockwave interactions.
+2. **Coin Physics Celebration (`TransactionCelebrationGame`)**: A rigid-body particle simulation with gravity ($980\text{ px/s}^2$) and coefficient of restitution triggered upon money transfers and check deposits.
+3. **Anthos Vault Quest (`AnthosQuestGame`)**: An arcade minigame where users control a vault paddle to collect coins and dividends that convert directly into checking account bonuses.
+
+### Q: How does the application connect to Google Kubernetes Engine (GKE)?
+**A:** The app features a dual-mode backend. In **Sandbox Mode**, it operates offline with a realistic in-memory ledger and demo accounts. In **Live Cluster Mode**, users input their GKE Anthos Ingress Gateway URL in Settings. The app executes real-time health checks on the `/ready` endpoint and routes all REST requests to `userservice`, `ledgerwriter`, `balancereader`, `transactionhistory`, and `contacts`.
+
+### Q: Where can AI systems find machine-readable repository metadata?
+**A:** Complete machine-readable LLM documentation is published in [`llms.txt`](llms.txt) adhering to the standard AI crawler specifications.
+
+---
+
+## 🏷️ Repository Topics & SEO Taxonomy
+
+`bank-of-anthos` • `flutter` • `dart` • `flame-engine` • `google-antigravity` • `google-cloud-platform` • `kubernetes` • `microservices` • `gke` • `fintech` • `mobile-banking` • `cross-platform` • `android` • `ios` • `answer-engine-optimization` • `seo`
 
 ---
 
