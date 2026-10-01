@@ -28,18 +28,27 @@ A production-grade, cross-platform mobile client for Google Cloud's [Bank of Ant
 
 ## 📸 Mobile Application Screenshots
 
+### 💳 Dashboard, Payments & Flame 2D Mesh
 <p align="center">
-  <img src="docs/screenshots/01_transaction_history.png" width="19%" alt="Transaction History" />
-  <img src="docs/screenshots/02_send_money.png" width="19%" alt="Send Money Flow" />
-  <img src="docs/screenshots/03_payees_contacts.png" width="19%" alt="Payees & Contacts" />
-  <img src="docs/screenshots/04_settings_cloud_config.png" width="19%" alt="Settings & Cloud Config" />
-  <img src="docs/screenshots/05_antigravity_systems_architecture.png" width="19%" alt="Antigravity Systems Architecture" />
+  <img src="docs/screenshots/06_dashboard_balance_card.png" width="24%" alt="Dashboard Balance Card & Quest" />
+  <img src="docs/screenshots/07_dashboard_flame_service_mesh.png" width="24%" alt="Flame 2D Anthos Service Mesh" />
+  <img src="docs/screenshots/02_send_money.png" width="24%" alt="Send Money Flow" />
+  <img src="docs/screenshots/01_transaction_history.png" width="24%" alt="Transaction History" />
+</p>
+
+### ⚙️ Payees, Cloud Config & Antigravity Systems
+<p align="center">
+  <img src="docs/screenshots/03_payees_contacts.png" width="31%" alt="Payees & Contacts" />
+  <img src="docs/screenshots/04_settings_cloud_config.png" width="31%" alt="Settings & Cloud Config" />
+  <img src="docs/screenshots/05_antigravity_systems_architecture.png" width="31%" alt="Antigravity Systems Architecture" />
 </p>
 
 | Screen | Description | Key Systems & Features |
 |---|---|---|
+| **Dashboard & Balance** | Real-time checking balance (\$12,450.75), account masking, quick actions, and Vault Quest | Material 3 & MVVM Provider architecture |
+| **Flame 2D Service Mesh** | Living Anthos microservice topology with laser packet routing & touch shockwaves | Flame 2D Canvas & kinetic physics engine |
+| **Send Money** | Recipient picker, quick-amount chips (\$25–\$500), routing verification, and memo inputs | `ledgerwriter` instant balance debiting |
 | **Activity & History** | Real-time inflow/outflow breakdown with categorized search & filters | `balancereader` & `transactionhistory` integration |
-| **Send Money** | Recipient picker, quick-amount chips (\$25–\$500), and memo inputs | `ledgerwriter` instant balance debiting |
 | **Payees & Contacts** | Color-coded payee initials, external badges, and one-tap payment | `contacts` microservice & routing validation |
 | **Cloud Configuration** | Live GKE Ingress URL toggle, Sandbox demo mode, and theme switcher | GKE `/ready` cluster health probe |
 | **Antigravity Systems** | Agentic AI architecture badge & core engineering stack breakdown | Google Antigravity, Flame 2D, and Flutter 3.47+ |

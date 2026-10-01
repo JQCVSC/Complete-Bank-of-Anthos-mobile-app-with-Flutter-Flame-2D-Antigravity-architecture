@@ -57,6 +57,12 @@ To make the application visually distinctive and interactive, Antigravity integr
   - Player controls a vault collector paddle to catch dividend gems, cloud nodes, and gold coins while dodging fee hazards.
   - Score converts directly into real deposit bonuses added to the user's ledger balance.
 
+<p align="center">
+  <img src="docs/screenshots/07_dashboard_flame_service_mesh.png" width="340px" alt="Anthos Service Mesh Live in Flame 2D" />
+  <br>
+  <em>Live 2D Microservices Mesh Canvas running inside the Flutter mobile app</em>
+</p>
+
 ### 4. Self-Healing Diagnostic & Test Loop
 Antigravity executed rigorous verification checks:
 1. **Compilation Analysis**: Ran `flutter analyze` across all 25+ Dart source files.
