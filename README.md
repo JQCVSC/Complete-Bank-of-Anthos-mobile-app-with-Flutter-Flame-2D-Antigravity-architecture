@@ -5,12 +5,15 @@
 [![Flame](https://img.shields.io/badge/Flame_Engine-1.38.2-FF6F00?logo=flame&logoColor=white)](https://flame-engine.org)
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-Anthos-4285F4?logo=googlecloud&logoColor=white)](https://github.com/GoogleCloudPlatform/bank-of-anthos)
 [![Architected With](https://img.shields.io/badge/Architected_With-Google_Antigravity-00C49F?logo=google&logoColor=white)](ANTIGRAVITY.md)
+[![Live Demo](https://img.shields.io/badge/Live_App-GitHub_Pages-2ea44f?logo=github&logoColor=white)](https://jqcvsc.github.io/Complete-Bank-of-Anthos-mobile-app-with-Flutter-Flame-2D-Antigravity-architecture/)
 [![AEO & SEO](https://img.shields.io/badge/AEO_%26_SEO-100%25_Compliant-success?logo=google&logoColor=white)](llms.txt)
 [![CI Pipeline](https://github.com/JQCVSC/Complete-Bank-of-Anthos-mobile-app-with-Flutter-Flame-2D-Antigravity-architecture/actions/workflows/ci.yml/badge.svg)](https://github.com/JQCVSC/Complete-Bank-of-Anthos-mobile-app-with-Flutter-Flame-2D-Antigravity-architecture/actions)
 [![AI LLM Crawl](https://img.shields.io/badge/llms.txt-Standard_Ready-blueviolet)](llms.txt)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
 A production-grade, cross-platform mobile client for Google Cloud's [Bank of Anthos](https://github.com/GoogleCloudPlatform/bank-of-anthos) reference microservices architecture. Engineered and architected using **Google Antigravity** with **Flutter**, **Dart**, and the **Flame 2D Game Engine**.
+
+> 🚀 **Live Interactive Demo**: **[https://jqcvsc.github.io/Complete-Bank-of-Anthos-mobile-app-with-Flutter-Flame-2D-Antigravity-architecture/](https://jqcvsc.github.io/Complete-Bank-of-Anthos-mobile-app-with-Flutter-Flame-2D-Antigravity-architecture/)**
 
 ---
 
