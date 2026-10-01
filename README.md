@@ -114,8 +114,7 @@ lib/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-org/bank-of-anthos-mobile.git
-   cd bank-of-anthos-mobile
+   git clone https://github.com/JQCVSC/Complete-Bank-of-Anthos-mobile-app-with-Flutter-Flame-2D-Antigravity-architecture
    ```
 
 2. **Install dependencies**:
